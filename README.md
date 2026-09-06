@@ -5,6 +5,16 @@ Unity로 제작한 로컬 2인용 체스 게임입니다. 기물 선택과 이�
 
 [▶ Web에서 플레이](https://blackmint-chong.github.io/Chessboard-Portfolio/)
 
+## 빠른 실행
+
+1. Unity Hub에서 이 저장소의 루트 폴더를 추가하고 Unity `6000.3.9f1`로 엽니다.
+2. 첫 가져오기가 끝나면 빈 씬 대신 `GameScene`이 자동으로 열립니다.
+3. 상단 **Play**를 누르면 게임을 확인할 수 있습니다.
+
+시작 씬을 직접 열려면 **Portfolio > Open Startup Scene** 메뉴를 사용하거나,
+Project 창에서 `Assets/Scenes/GameScene.unity`를 더블클릭합니다.
+이미 열어 둔 씬이나 저장하지 않은 변경이 있으면 자동 전환하지 않습니다.
+
 ## 프로젝트 정보
 
 | 항목      | 내용                              |
@@ -59,8 +69,8 @@ Unity로 제작한 로컬 2인용 체스 게임입니다. 기물 선택과 이�
 - Unity UI / TextMeshPro `2.0.0`
 - Unity Test Framework `1.6.0`
 
-프로젝트를 Unity에서 연 뒤 `Assets/Scenes/GameScene.unity`를 열어 Play하면 게임을
-확인할 수 있습니다. 빌드에도 `GameScene` 한 개만 포함되어 있습니다.
+`Assets/Scenes/GameScene.unity`에서 Play하면 게임을 확인할 수 있습니다.
+빌드에도 `GameScene` 한 개만 포함되어 있습니다.
 
 ## 빌드
 
