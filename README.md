@@ -76,6 +76,9 @@ Project 창에서 `Assets/Scenes/GameScene.unity`를 더블클릭합니다.
 
 Unity의 `File > Build Profiles`에서 대상 플랫폼을 선택해 빌드할 수 있습니다.
 현재 `docs` 폴더에는 GitHub Pages 배포용 WebGL 빌드가 포함되어 있습니다.
+웹 플레이 화면은 16:9 비율을 유지하며 브라우저 창 안에 맞춰지고, 창 크기를 바꾸면
+자동으로 조정됩니다. `docs/index.html`과 `docs/TemplateData/style.css`에 이 배치를
+적용했으므로 WebGL을 다시 빌드할 때는 해당 페이지 설정을 유지해야 합니다.
 
 ## 테스트
 
