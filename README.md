@@ -3,7 +3,19 @@
 Unity로 제작한 로컬 2인용 체스 게임입니다. 기물 선택과 이동부터 특수 행마,
 체크메이트와 무승부까지 핵심 체스 규칙을 직접 구현했습니다.
 
-[▶ Web에서 플레이](https://blackmint-chong.github.io/Chessboard-Portfolio/)
+## 플레이 데모
+
+**기본 이동부터 특수 행마, 무승부 판정까지 — 직접 구현한 체스 규칙을 실제 플레이로 확인해 보세요.**
+
+[![Chessboard 플레이 미리보기 — 클릭하면 전체 영상 재생](docs/media/chessboard-preview.gif)](https://blackmint-chong.github.io/Chessboard-Portfolio/media/chessboard-demo.mp4)
+
+[▶ 전체 영상 보기 · 1분 50초](https://blackmint-chong.github.io/Chessboard-Portfolio/media/chessboard-demo.mp4) · [♟ Web에서 직접 플레이](https://blackmint-chong.github.io/Chessboard-Portfolio/)
+
+전체 영상에서는 다음 기능을 시연합니다. 위 미리보기는 일부 구간을 1.5배속으로 보여줍니다.
+
+- **기본 플레이**: 기물 이동·포획, 체크
+- **특수 행마**: 캐슬링, 앙파상, 프로모션
+- **게임 진행**: 수 되돌리기, 게임 초기화, 삼수동형(3회 동형 반복) 무승부 판정
 
 ## 빠른 실행
 
